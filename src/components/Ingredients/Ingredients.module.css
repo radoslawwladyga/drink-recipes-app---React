@@ -1,0 +1,48 @@
+.selected {
+  min-width: 90px;
+  width: auto;
+  padding: 10px;
+  border: 1px solid white;
+  vertical-align: middle;
+  border-radius: 33px;
+  margin-top: 20px;
+  color: black;
+  background-color: #00ff00;
+  margin-right: 15px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.close {
+  width: 5px;
+  height: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.image {
+  width: 120px;
+  height: 100%;
+  margin: 38px;
+}
+
+.one {
+  width: 1050px;
+  height: auto;
+  background-color: #11101087;
+  border-radius: 20px;
+  margin: 100 auto;
+  margin: 50px auto 0;
+  font-family: "Inconsolata", monospace;
+  border: 1px solid white;
+  display: flex;
+  color: white;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.title {
+  font-weight: 600;
+}

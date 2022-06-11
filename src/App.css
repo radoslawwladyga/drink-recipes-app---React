@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&amp;family=Lato:wght@300&amp;display=swap");
+
+body,
+html {
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("image/bar-498420_1920.jpg") center no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+@media only screen and (max-width: 960px) {
+  body,
+  html {
+    background-image:  url("image/bar-498420_1920.jpg") no-repeat;
+    position: fixed;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+}

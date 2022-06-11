@@ -1,0 +1,69 @@
+.seeall {
+  padding: 50px;
+  display: flex;
+  color: white;
+}
+.position {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  max-width: 870 px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+.menu {
+  margin: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.alert {
+  position: absolute;
+  right: 0px;
+  top: 35px;
+  padding: 10px 50px 10px 40px;
+  background: #292D2D;
+  color: #a63614;
+  border-left: 3px solid #a63614;
+  transition-duration: 0.4s;
+}
+
+.alertOpen {
+  right: 0px !important;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.sectionLogin {
+  display: flex;
+  padding: 35px;
+  cursor: pointer;
+}
+
+.search {
+  border: 1px solid white;
+  margin-left: 50px;
+  padding: 10px 70px;
+  cursor: pointer;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 960px) {
+  .search {
+    padding: 10px;
+    text-align: center;
+    display: block;
+  }
+}

@@ -1,0 +1,71 @@
+.position {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  width: 420px;
+  height: 211;
+}
+.search {
+  border: 1px solid white;
+  padding: 10px 75px;
+  margin: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.image {
+  width: 120px;
+  height: 100%;
+  margin: 38px;
+}
+
+.one {
+  max-width: 1050px;
+  height: auto;
+  background-color: #11101087;
+  border-radius: 20px;
+  margin: 100 auto;
+  margin: 50px auto 0;
+  font-family: "Inconsolata", monospace;
+  border: 1px solid white;
+  display: flex;
+  color: white;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: visible;
+}
+
+.title {
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.seeSection {
+  margin: 0 auto;
+  text-align: center;
+}
+.seebutton {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 75px;
+  margin: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.removeSeeButton {
+  display: none;
+}
