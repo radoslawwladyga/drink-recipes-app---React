@@ -87,7 +87,20 @@ const Results = () => {
         </div>
       </React.Fragment>
     ) : (
-      ""
+      <React.Fragment>
+        <div className={classes.seeSection}>
+          <button
+            className={classes.seebutton}
+            type="button"
+            onClick={() => {
+              setShowMore(true);
+              setIsActive(false);
+            }}
+          >
+            <span>THATS ALL...</span>
+          </button>
+        </div>
+      </React.Fragment>
     );
   };
 
